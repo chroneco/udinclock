@@ -1,0 +1,33 @@
+@font-face 
+{
+  font-family: digi;
+  src: url(DS-DIGIT.TTF);
+}
+body
+{
+	font-family: digi;
+	margin: 0;
+}
+div
+{
+	position: absolute;
+}
+span
+{
+	display: inline;
+	font-size: 120;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+
+#clockText
+{
+	position: absolute;
+	bottom: 55px;
+	left: 0;
+	right: 0;
+	font-size: 0;
+	text-align: center;
+	color: #2d0909;
+}
